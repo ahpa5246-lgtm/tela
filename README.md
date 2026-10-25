@@ -1,5 +1,32 @@
 # Tela
 
+## Download, setup and project overview
+
+A local-first visual canvas for social and advertising designs.
+
+Layer editing; reusable design state; panels; SVG-oriented creative workflows.
+
+![Project workflow illustration](docs/project-overview.svg)
+
+[Download source ZIP](https://github.com/ahpa5246-lgtm/tela/archive/refs/heads/main.zip) · [Changes and branches](https://github.com/ahpa5246-lgtm/tela/branches) · [Verification notes](docs/QUALITY_REVIEW.md)
+
+The ZIP contains source code. Installation steps and external runtime requirements are listed below.
+
+```bash
+git clone https://github.com/ahpa5246-lgtm/tela.git
+cd tela
+```
+
+From the repository directory:
+
+```text
+npm install
+npm run dev
+```
+
+The diagram is a project illustration. Test results and runtime limitations are recorded in [the review](docs/QUALITY_REVIEW.md); it is not a production-readiness certification.
+
+
 **An open-source, local-first design canvas for social & ad creatives — a brandable, self-hostable Figma / Canva alternative.** Design once, export to every format. No account, no backend, no lock-in: your work lives in your browser.
 
 _Tela_ is Portuguese for both **canvas** and **screen**.
